@@ -7,8 +7,11 @@ internal class Program
         // var assignment315a = new Assignment315A();
         // assignment315a.Run();
 
-        var assignment315c = new Assignment315C();
-        assignment315c.Run(); 
+        // var assignment315c = new Assignment315C();
+        // assignment315c.Run(); 
+        
+        var assignment315d = new Assignment315D();
+        assignment315d.Run(); 
     }
 }
 

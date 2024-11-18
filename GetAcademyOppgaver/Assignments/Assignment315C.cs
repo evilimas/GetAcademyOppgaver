@@ -5,8 +5,8 @@ public class Assignment315C
     public void Run()
     {
         Console.WriteLine("Oppgaver Assignment 315C");
-        string text = "Terje";
-        Console.WriteLine(text);
+        Console.WriteLine("Please enter a word or a sentence");
+        string text = Console.ReadLine();
         ReverseString(text);
         return;
 
