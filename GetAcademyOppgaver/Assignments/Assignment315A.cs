@@ -9,9 +9,9 @@ public class Assignment315A
         var random = new Random();
         var number = random.Next(1, 100);
         var guessCount = 0;
-        var finish = false;
+        var finish = true;
 
-        while (!finish)
+        while (finish)
         {
             Console.Write("Guess a number ");
             var guess = int.Parse(Console.ReadLine());
@@ -28,7 +28,7 @@ public class Assignment315A
             else
             {
                 Console.WriteLine($"You guessed correct ,you managed to guess in {guessCount} times");
-                finish = true;
+                finish = false;
             }
         }
 

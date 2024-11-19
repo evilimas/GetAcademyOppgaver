@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetAcademyOppgaver", "GetAc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCodeCampTasks", "..\FreeCodeCampTasks\FreeCodeCampTasks.csproj", "{9B6B7F59-F045-4AF5-BB77-AD4FF0978EFA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder1", "SolutionFolder1", "{C292BB52-8423-4573-B230-1A3E11ED62BD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,5 +18,7 @@ Global
 		{9B6B7F59-F045-4AF5-BB77-AD4FF0978EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B6B7F59-F045-4AF5-BB77-AD4FF0978EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B6B7F59-F045-4AF5-BB77-AD4FF0978EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
