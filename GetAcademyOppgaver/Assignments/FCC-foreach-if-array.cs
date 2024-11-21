@@ -23,7 +23,17 @@ This C# console application is designed to:
     Andrew:         89.6    B+
     Emma:           85.6    B
     Logan:          91.2    A-
-*/
+    
+        /*          Output
+
+                Copy
+                Student         Exam Score      Overall Grade   Extra Credit
+
+                Sophia          92.2            95.88   A       92 (3.68 pts)
+                Andrew          89.6            91.38   A-      89 (1.78 pts)
+                Emma            85.6            90.94   A-      89 (5.34 pts)
+                Logan           91.2            93.12   A       96 (1.92 pts)*/
+        
         int examAssignments = 5;
 
         string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
@@ -36,10 +46,12 @@ This C# console application is designed to:
         int[] studentScores = new int[10];
 
         string currentStudentLetterGrade = "";
+        int examScore = 0;
+        int extraCredit = 0;
 
         // display the header row for scores/grades
         Console.Clear();
-        Console.WriteLine("Student\t\tGrade\tLetter Grade\n");
+        Console.WriteLine("Student\t\tExam Score\tOveral\tGrade\tExtra Credit\n");
 
         /*
         The outer foreach loop is used to:
@@ -130,7 +142,7 @@ This C# console application is designed to:
             // Student         Grade
             // Sophia:         92.2    A-
 
-            Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
+            Console.WriteLine($"{currentStudent}\t\t{examScore}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t{extraCredit} ({extraCredit} pts)");
         }
 
         // required for running in VS Code (keeps the Output windows open to view results)
